@@ -34,7 +34,7 @@ public class PC2 : MonoBehaviour
             turnVelocity = transform.up * rotationSpeed * hInput;
 
             // Jump on K press
-            if (Input.GetKeyDown(KeyCode.K))
+            if (Input.GetKeyDown(KeyCode.Period) || Input.GetKeyDown(KeyCode.N))
             {
                 moveVelocity.y = jumpSpeed;
             }
