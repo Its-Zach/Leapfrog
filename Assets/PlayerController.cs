@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
             turnVelocity = transform.up * rotationSpeed * hInput;
 
             // Jump on K press
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.LeftShift))
             {
                 moveVelocity.y = jumpSpeed;
             }
